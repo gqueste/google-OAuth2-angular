@@ -1,0 +1,7 @@
+div.container
+    h1 Authentication project
+    button.btn.btn-primary(ng-click='handleAuthClick()') Authorize
+    div(ng-if='authentication.isConnected()')
+        p Connected with account {{authentication.getUserMail().mail}}
+    div(ng-if='!authentication.isConnected()')
+        p non Connected {{authentication.getUserMail().error}}
