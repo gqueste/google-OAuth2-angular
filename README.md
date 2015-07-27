@@ -27,3 +27,10 @@ Call `GoogleAuthentication` to reach the factory methods. `fetchGoogleMail` will
 The call is asynchronous. As a result, you can detect the connection success by watching `getUserMail` or `isConnected`.
 
 See `app/scripts/pages/index` for an example.
+
+### Example
+(The example needs a clientID and an APIKey in order to run)
+
+Launch the application by running `npm install` and then `npm start`
+
+The click on the Authorize button will launch the authentication.
