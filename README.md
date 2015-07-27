@@ -1,5 +1,7 @@
 # google-OAuth2-angular
-Angular module for client side Google authentication through OAuth2
+Angular module for client side Google authentication through OAuth2.
+
+Wraps the code on the official page for the [Google API Client Library for Javascript](https://developers.google.com/api-client-library/javascript/start/start-js)
 
 ## Module
 The module can be found under `app/scripts/components/google-auth`.
