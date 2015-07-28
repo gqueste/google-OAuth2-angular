@@ -6,7 +6,10 @@ Wraps the code on the official page for the [Google API Client Library for Javas
 ## Module
 The module can be found under `app/scripts/components/google-auth`.
 
-No dependencies required.
+Dependencies required ->
+Add to your `index`:
+
+    <script src="https://apis.google.com/js/client.js"></script>
 
 ### Methods
 * `fetchGoogleMail` : launches the authentication process. If it succeeds, userMail is initiated with a `mail` attribute
@@ -17,10 +20,6 @@ No dependencies required.
 
 You will need a clientID and an APIKey provided by [Google](https://developers.google.com/api-client-library/javascript/features/authentication) 
 to place in the `google-auth.factory.js` factory.
-
-add to your `index`:
-
-    <script src="https://apis.google.com/js/client.js"></script>
 
 Inject `google.auth` into your module.
 
