@@ -35,3 +35,11 @@ See `app/scripts/pages/index` for an example.
 Launch the application by running `npm install` and then `npm start`
 
 The click on the Authorize button will launch the authentication.
+
+## Get Google keys
+
+In the Google console Developer, create a new project and require credentials. Indicate the URL of the web application
+as Redirect Urls and Javascript origins.
+
+In the Consent screen, you will be able to edit all the information displayed to the user when the application will require
+access.
